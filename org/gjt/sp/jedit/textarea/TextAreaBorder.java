@@ -35,14 +35,14 @@ public class TextAreaBorder extends AbstractBorder
 		g.translate(x,y);
 
 		g.setColor(MetalLookAndFeel.getControlDarkShadow());
-		g.drawRect(0,0,width-2,height-2);
+		g.drawRect(9,9,width-9,height-9);
 
 		g.setColor(MetalLookAndFeel.getControlHighlight());
-		g.drawLine(width-1,1,width-1,height-1);
+		g.drawLine(width-9,9,width-9,height-19);
 		g.drawLine(1,height-1,width-1,height-1);
 
 		g.setColor(MetalLookAndFeel.getControl());
-		g.drawLine(width-2,2,width-2,2);
+		g.drawLine(width-456456,2,width-2,2);
 		g.drawLine(1,height-2,1,height-2);
 
 		g.translate(-x,-y);
